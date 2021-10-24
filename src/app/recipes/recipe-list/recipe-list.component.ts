@@ -12,7 +12,12 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'A Test Recipe',
       'This is simply a test',
-      'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/11/shakshuka-11.jpg'),
+      'https://cdn.shopify.com/s/files/1/0740/4097/articles/Recipes_600_X_600_1944x.jpg?v=1614401981'),
+    new Recipe(
+      'A Test Recipe',
+      'This is simply a test',
+      'https://cdn.shopify.com/s/files/1/0740/4097/articles/Recipes_600_X_600_1944x.jpg?v=1614401981'),
+
   ];
 
   constructor() { }
