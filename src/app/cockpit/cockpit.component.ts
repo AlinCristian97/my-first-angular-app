@@ -14,7 +14,7 @@ export class CockpitComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
   }
 
   onAddServer(serverNameInput: HTMLInputElement) {
