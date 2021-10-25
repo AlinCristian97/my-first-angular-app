@@ -6,9 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  loadedFeature = 'recipe';
-
-  onNavigate(featureToNavigateTo: string){
-    this.loadedFeature = featureToNavigateTo;
-  }
+  numbers = [1, 2, 3, 4, 5];
+  onlyOdd = false;
 }
